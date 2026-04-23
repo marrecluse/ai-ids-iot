@@ -1,0 +1,527 @@
+{
+  "DDoS": [
+    {
+      "flow_duration": 652163.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 81520.375,
+      "flow_iat_std": 228771.4264,
+      "fwd_iat_total": 4118.0,
+      "bwd_iat_total": 652160.0
+    },
+    {
+      "flow_duration": 1797800.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 256828.5714,
+      "flow_iat_std": 678957.8049,
+      "fwd_iat_total": 981.0,
+      "bwd_iat_total": 1797740.0
+    },
+    {
+      "flow_duration": 9018824.0,
+      "total_fwd_packets": 5.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 2254706.0,
+      "flow_iat_std": 4508056.692,
+      "fwd_iat_total": 9018824.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "DoS GoldenEye": [
+    {
+      "flow_duration": 11420276.0,
+      "total_fwd_packets": 6.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1268919.556,
+      "flow_iat_std": 2259906.564,
+      "fwd_iat_total": 6421563.0,
+      "bwd_iat_total": 10400000.0
+    },
+    {
+      "flow_duration": 7618541.0,
+      "total_fwd_packets": 7.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 692594.6364,
+      "flow_iat_std": 1629441.46,
+      "fwd_iat_total": 2618630.0,
+      "bwd_iat_total": 7618500.0
+    },
+    {
+      "flow_duration": 10614479.0,
+      "total_fwd_packets": 8.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 884539.9167,
+      "flow_iat_std": 2068429.926,
+      "fwd_iat_total": 5614181.0,
+      "bwd_iat_total": 10600000.0
+    }
+  ],
+  "DoS Hulk": [
+    {
+      "flow_duration": 3.0,
+      "total_fwd_packets": 2.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 3.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 3.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 84556019.0,
+      "total_fwd_packets": 8.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 7046334.917,
+      "flow_iat_std": 24400000.0,
+      "fwd_iat_total": 84400000.0,
+      "bwd_iat_total": 149416.0
+    },
+    {
+      "flow_duration": 763.0,
+      "total_fwd_packets": 5.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 190.75,
+      "flow_iat_std": 125.942778,
+      "fwd_iat_total": 763.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "DoS Slowhttptest": [
+    {
+      "flow_duration": 63116716.0,
+      "total_fwd_packets": 7.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 10500000.0,
+      "flow_iat_std": 11900000.0,
+      "fwd_iat_total": 63100000.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 63109947.0,
+      "total_fwd_packets": 7.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 10500000.0,
+      "flow_iat_std": 11900000.0,
+      "fwd_iat_total": 63100000.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 63107055.0,
+      "total_fwd_packets": 7.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 10500000.0,
+      "flow_iat_std": 11900000.0,
+      "fwd_iat_total": 63100000.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "DoS slowloris": [
+    {
+      "flow_duration": 960.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 240.0,
+      "flow_iat_std": 214.38439,
+      "fwd_iat_total": 911.0,
+      "bwd_iat_total": 894.0
+    },
+    {
+      "flow_duration": 105576515.0,
+      "total_fwd_packets": 16.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 5865361.944,
+      "flow_iat_std": 12500000.0,
+      "fwd_iat_total": 106000000.0,
+      "bwd_iat_total": 103000000.0
+    },
+    {
+      "flow_duration": 3000418.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1500209.0,
+      "flow_iat_std": 712718.3806,
+      "fwd_iat_total": 3000418.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "FTP-Patator": [
+    {
+      "flow_duration": 9770189.0,
+      "total_fwd_packets": 9.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 424790.8261,
+      "flow_iat_std": 1100296.728,
+      "fwd_iat_total": 6562136.0,
+      "bwd_iat_total": 9770088.0
+    },
+    {
+      "flow_duration": 8891021.0,
+      "total_fwd_packets": 9.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 386566.1304,
+      "flow_iat_std": 1003342.166,
+      "fwd_iat_total": 5723658.0,
+      "bwd_iat_total": 8890900.0
+    },
+    {
+      "flow_duration": 236.0,
+      "total_fwd_packets": 2.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 118.0,
+      "flow_iat_std": 94.75230868,
+      "fwd_iat_total": 236.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "PortScan": [
+    {
+      "flow_duration": 50.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 50.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 43.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 43.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 49.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 49.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "SSH-Patator": [
+    {
+      "flow_duration": 11856916.0,
+      "total_fwd_packets": 19.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 241977.8776,
+      "flow_iat_std": 632963.7445,
+      "fwd_iat_total": 9725845.0,
+      "bwd_iat_total": 11900000.0
+    },
+    {
+      "flow_duration": 12254594.0,
+      "total_fwd_packets": 21.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 235665.2692,
+      "flow_iat_std": 633525.2859,
+      "fwd_iat_total": 9956680.0,
+      "bwd_iat_total": 12300000.0
+    },
+    {
+      "flow_duration": 81.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 81.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "Bot": [
+    {
+      "flow_duration": 42.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 42.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 997046.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 199409.2,
+      "flow_iat_std": 272354.1657,
+      "fwd_iat_total": 996635.0,
+      "bwd_iat_total": 996506.0
+    },
+    {
+      "flow_duration": 1016450.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 203290.0,
+      "flow_iat_std": 277658.5581,
+      "fwd_iat_total": 1015840.0,
+      "bwd_iat_total": 1015902.0
+    }
+  ],
+  "Web Attack \ufffd Brute Force": [
+    {
+      "flow_duration": 5893741.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1964580.333,
+      "flow_iat_std": 3401978.742,
+      "fwd_iat_total": 5893741.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5063517.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1687839.0,
+      "flow_iat_std": 2922655.621,
+      "fwd_iat_total": 5063517.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5758416.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1919472.0,
+      "flow_iat_std": 3323824.565,
+      "fwd_iat_total": 5758416.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "Web Attack \ufffd XSS": [
+    {
+      "flow_duration": 5642528.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1880842.667,
+      "flow_iat_std": 3256962.501,
+      "fwd_iat_total": 5642528.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5373103.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1791034.333,
+      "flow_iat_std": 3101396.047,
+      "fwd_iat_total": 5373103.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5236641.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1745547.0,
+      "flow_iat_std": 3022619.204,
+      "fwd_iat_total": 5236641.0,
+      "bwd_iat_total": 0.0
+    }
+  ],
+  "Infiltration": [
+    {
+      "flow_duration": 18897509.0,
+      "total_fwd_packets": 8.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 2699644.143,
+      "flow_iat_std": 3456029.564,
+      "fwd_iat_total": 18900000.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 101039258.0,
+      "total_fwd_packets": 26.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1981161.922,
+      "flow_iat_std": 8701276.406,
+      "fwd_iat_total": 101000000.0,
+      "bwd_iat_total": 101000000.0
+    },
+    {
+      "flow_duration": 119382036.0,
+      "total_fwd_packets": 1157.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 51613.50454,
+      "flow_iat_std": 688536.9003,
+      "fwd_iat_total": 119000000.0,
+      "bwd_iat_total": 119000000.0
+    }
+  ],
+  "Heartbleed": [
+    {
+      "flow_duration": 119299621.0,
+      "total_fwd_packets": 2805.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 24689.4911,
+      "flow_iat_std": 152728.5209,
+      "fwd_iat_total": 119000000.0,
+      "bwd_iat_total": 119000000.0
+    },
+    {
+      "flow_duration": 119296592.0,
+      "total_fwd_packets": 2797.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 24843.10537,
+      "flow_iat_std": 153403.7113,
+      "fwd_iat_total": 119000000.0,
+      "bwd_iat_total": 119000000.0
+    },
+    {
+      "flow_duration": 119259886.0,
+      "total_fwd_packets": 2782.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 24478.63013,
+      "flow_iat_std": 153117.4894,
+      "fwd_iat_total": 119000000.0,
+      "bwd_iat_total": 119000000.0
+    }
+  ],
+  "Web Attack \ufffd Sql Injection": [
+    {
+      "flow_duration": 78.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 78.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5012479.0,
+      "total_fwd_packets": 6.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 556942.1111,
+      "flow_iat_std": 1666209.939,
+      "fwd_iat_total": 5012479.0,
+      "bwd_iat_total": 11118.0
+    },
+    {
+      "flow_duration": 5009041.0,
+      "total_fwd_packets": 4.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 715577.2857,
+      "flow_iat_std": 1891319.408,
+      "fwd_iat_total": 4355.0,
+      "bwd_iat_total": 5008917.0
+    }
+  ],
+  "BENIGN": [
+    {
+      "flow_duration": 181.0,
+      "total_fwd_packets": 2.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 60.33333333,
+      "flow_iat_std": 63.40609855,
+      "fwd_iat_total": 4.0,
+      "bwd_iat_total": 48.0
+    },
+    {
+      "flow_duration": 22995.0,
+      "total_fwd_packets": 1.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 22995.0,
+      "flow_iat_std": 0.0,
+      "fwd_iat_total": 0.0,
+      "bwd_iat_total": 0.0
+    },
+    {
+      "flow_duration": 5999571.0,
+      "total_fwd_packets": 3.0,
+      "total_bwd_packets": 0.0,
+      "flow_bytes_per_sec": 0.0,
+      "flow_packets_per_sec": 0.0,
+      "flow_iat_mean": 1999857.0,
+      "flow_iat_std": 3443580.736,
+      "fwd_iat_total": 5999571.0,
+      "bwd_iat_total": 0.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "random_forest": {
+    "accuracy": 0.9848268191928821,
+    "precision": 0.987673229258014,
+    "recall": 0.9848268191928821,
+    "f1_score": 0.9854013295278091
+  },
+  "svm": {
+    "accuracy": 0.9347791547505561,
+    "precision": 0.9730022572757139,
+    "recall": 0.9347791547505561,
+    "f1_score": 0.942169569111912
+  },
+  "baseline": {
+    "accuracy": 0.10549729901493486,
+    "description": "Always predicts BENIGN class"
+  }
+}

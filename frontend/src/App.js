@@ -160,7 +160,7 @@ function App() {
     }]
   };
 
-  // Action distribution for bar chart - FIXED toUpperCase error
+  // Action distribution for bar chart
   const actionCounts = alerts.reduce((acc, alert) => {
     const action = alert.recommended_action || 'none';
     acc[action] = (acc[action] || 0) + 1;
@@ -168,14 +168,15 @@ function App() {
   }, {});
 
   const actionBarData = {
-    labels: Object.keys(actionCounts).map(a => (a || 'UNKNOWN').toUpperCase()), // FIX: handle undefined
+    labels: Object.keys(actionCounts).map(a => (a || 'UNKNOWN').toUpperCase()),
     datasets: [{
       label: 'Response Actions Taken',
       data: Object.values(actionCounts),
       backgroundColor: [
-        'rgba(76, 175, 80, 0.8)',   // alert - green
+        'rgba(76, 175, 80, 0.8)',   // monitor - green
         'rgba(255, 152, 0, 0.8)',   // isolate - orange
         'rgba(244, 67, 54, 0.8)',   // block - red
+        'rgba(33, 150, 243, 0.8)',  // alert - blue
       ],
       borderRadius: 8,
       borderWidth: 0
@@ -194,12 +195,6 @@ function App() {
           font: { size: 12, weight: '500' },
           usePointStyle: true
         }
-      },
-      tooltip: {
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-        padding: 12,
-        titleFont: { size: 14, weight: 'bold' },
-        bodyFont: { size: 13 }
       }
     }
   };
@@ -210,14 +205,7 @@ function App() {
     plugins: {
       legend: {
         display: true,
-        position: 'top',
-        labels: {
-          font: { size: 12, weight: '500' }
-        }
-      },
-      tooltip: {
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-        padding: 12
+        position: 'top'
       }
     },
     scales: {
@@ -226,14 +214,6 @@ function App() {
         max: 100,
         ticks: {
           callback: (value) => value + '%'
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.05)'
-        }
-      },
-      x: {
-        grid: {
-          display: false
         }
       }
     }
@@ -245,23 +225,11 @@ function App() {
     plugins: {
       legend: {
         display: false
-      },
-      tooltip: {
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-        padding: 12
       }
     },
     scales: {
       y: {
-        beginAtZero: true,
-        grid: {
-          color: 'rgba(0, 0, 0, 0.05)'
-        }
-      },
-      x: {
-        grid: {
-          display: false
-        }
+        beginAtZero: true
       }
     }
   };
@@ -540,7 +508,7 @@ function App() {
                                 {device.name}
                               </Typography>
                               <Chip
-                                label={isCompromised ? 'COMPROMISED' : 'SAFE'}
+                                label={isCompromised ? 'THREAT' : 'SAFE'}
                                 size="small"
                                 color={isCompromised ? 'error' : 'success'}
                                 sx={{ fontWeight: 600 }}
